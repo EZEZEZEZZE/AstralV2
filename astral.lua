@@ -11,7 +11,7 @@ end
 local watermarkgui = Instance.new("ScreenGui", gethui and gethui() or game.CoreGui)
 getgenv().Array = false
 getgenv().Uninjected = false
-local UILibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/Mastadawn/AstralV2/main/NewUILibrary", true))()
+local UILibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/NTDCore/AstralV2/main/NewUILibrary.lua", true))()
 local Notifications = loadstring(game:HttpGet("https://raw.githubusercontent.com/Mastadawn/AstralV2/main/Notifications.lua", true))()
 getgenv().notifs = Notifications
 local SwordAnimations = loadstring(game:HttpGet("https://raw.githubusercontent.com/Mastadawn/AstralV2/main/SwordAnimations.lua", true))()
